@@ -1,0 +1,106 @@
+[begin] (fluxbox)
+
+	[submenu] (development)
+		[exec] (atom) {atom}
+		[exec] (vim) {gvim}
+		[exec] (scite) {scite}
+		[exec] (VirtualBox) {virtualbox}
+        [exec] (Filezilla) {filezilla}
+	[end]
+
+	[submenu] (graphics)
+		[exec] (gnu image manipulation program) {gimp-2.8}
+		[exec] (inkscape) {inkscape}
+	[end]
+	
+	[submenu] (multimedia)
+		[exec] (audacity) {audacity}
+		[exec] (brasero) {brasero}
+		[exec] (music) {deadbeef}
+ 		[exec] (CD Ripper) {xfburn}
+        
+	[end]
+	
+	[submenu] (network)
+		[exec] (firefox) {firefox}
+		[exec] (qBittorrent) {qbittorrent}
+		[exec] (Thunderbird) {thunderbird}
+		[exec] (W3m) {tilda}
+		[exec] (Messaging) {telegram-desktop}
+        
+	[end]
+	
+	[submenu] (office)
+		[exec] (calibre) {calibre}
+		[exec] (libreoffice) {libreoffice --base}
+		[exec] (writer) {libreoffice --writer}
+		[exec] (Calc) {libreoffice --calc}
+		[exec] (Draw) {libreoffice --draw}
+		[exec] (Math) {libreoffice --math}
+		[exec] (Impress) {libreoffice --impress}
+	[end]
+	
+	[submenu] (shells)
+		[exec] (bash) {xterm -e bash --login}
+        [exec] (ranger) {xterm -e ranger}
+		[exec] (rxvt color unicode terminal) {urxvt}
+		[exec] (sh) {xterm -e sh --login}
+		[exec] (xterm) {xterm}
+        [exec] (files) {nautilus}
+	[end]
+	
+	[submenu] (utilities)		
+		[submenu] (clamtk)
+		[exec] (user) {clamtk}
+		[exec] (root) {xterm -e sudo clamtk}
+		[exec] (update) {xterm -hold -e sudo freshclam}
+		[end]
+		
+		[submenu] (rkhunter)
+		[exec] (scan) {xterm -e sudo rkhunter -c}
+		[exec] (update) {xterm -e sudo rkhunter --update}
+		[exec] (log) {xterm -hold -e sudo grep Warning /var/log/rkhunter.log}
+		[end]
+
+		[exec] (screenshot) {xfce4-screenshooter}
+		[exec] (screencast) {simplescreenrecorder}
+		[exec] (teamviewer) {teamviewer}
+		[exec] (bleachBit) {bleachbit}
+        [exec] (USB Creator) {xterm -e sudo multibootusb}
+		[exec] (conky) {killall conky && conky}
+	[end]
+	
+	[submenu] (system)
+		[submenu] (settings)			
+			[exec] (printers) {system-config-printer}
+			[exec] (bluetooth) {blueberry}
+			[exec] (sound) {pavucontrol}
+			[exec] (mixer) {xterm -e alsamixer}
+		[end]
+		
+		[exec] (gnome partition editor) {xterm -e sudo /usr/sbin/gparted & exit}
+		[exec] (htop) {xterm -e htop}
+	[end]
+    
+	[separator]
+	
+	[submenu] (fluxbox)
+		[workspaces] (workspaces)
+		[submenu] (styles)
+			[stylesdir] (~/.fluxbox/styles)
+		[end]
+		[config] (configure)
+		[reconfig] (reconfig)
+		[restart] (restart)
+		[separator]
+		[exit] (exit)
+	[end]
+	
+	[separator]
+	
+		[submenu] (POWER)
+			[exec] (REBOOT) {reboot}
+			[exec] (HIBERNATE) {systemctl hibernate}
+			[exec] (SHUT DOWN) {poweroff}
+		[end]			
+[end]

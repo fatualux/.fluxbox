@@ -1,0 +1,111 @@
+[app] (name=xterm) (class=XTerm)
+  [Dimensions]	{76% 50%}
+  [Deco]	{NONE}
+  [Alpha]	{69 50}
+[end]
+[app] (name=urxvt) (class=URxvt)
+  [Head]	{1}
+  [Dimensions]	{76% 50%}
+  [Shaded]	{no}
+  [Deco]	{NONE}
+  [Layer]	{8}
+  [Close]	{yes}
+  [Alpha]	{57 16}
+[end]
+[app] (name=xterm) (class=UXTerm)
+  [Dimensions]	{76% 50%}
+  [Deco]	{NONE}
+[end]
+[app] (name=Navigator) (class=Firefox) (role=browser)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+  [Deco]	{NONE}
+[end]
+[app] (name=Mail) (class=Thunderbird) (role=3pane)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+  [Deco]	{NONE}
+[end]
+[app] (name=nautilus) (class=Nautilus)
+  [Dimensions]	{50% 50%}
+  [Deco]	{NONE}
+  [Alpha]	{81 67}
+[end]
+[app] (name=atom) (class=Atom) (role=browser-window)
+[end]
+[app] (name=qbittorrent) (class=qBittorrent)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=bluefish) (class=Bluefish) (role=bluefish)
+  [Dimensions]	{76% 100%}
+[end]
+[app] (name=vlc) (class=VLC) (role=MediaPlayer)
+  [Dimensions]	{100% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=libreoffice) (class=LibreOffice 5.3)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=clamtk) (class=Clamtk)
+  [Dimensions]	{50% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=sublime text) (class=sublime text 2)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=notepadqq-bin) (class=Notepadqq)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=scite) (class=Scite)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=atom) (class=Atom)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=SciTE) (class=SciTE)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+  [Deco]	{NONE}
+[end]
+[app] (name=thunar) (class=Thunar)
+  [Dimensions]	{50% 50%}
+  [Deco]	{NONE}
+[end]
+[app] (name=gvim) (class=Gvim) (role=vim-3563-2528510817-1501429080)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+  [Deco]	{NONE}
+[end]
+[app] (name=VirtualBox) (class=VirtualBox)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=telegram-desktop) (class=TelegramDesktop)
+  [Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+  [Deco]	{NONE}
+[end]
+[app] (name=vlc) (class=Vlc) (role=vlc-main)
+  [[Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=evince) (class=evince)
+  [[Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=inkscape) (class=inkscape)
+  [[Dimensions]	{76% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+  [Deco]	{NONE}
+[end]
+[app] (name=etcher-elektron) (class=Etcher)
+  [[Dimensions]	{76% 50%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+  [Deco]	{NONE}
+[end]
